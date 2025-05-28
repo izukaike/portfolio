@@ -66,7 +66,7 @@ export default function Home() {
                   <div><strong>Lockheed Martin</strong> – Embedded Systems Engineer</div>
                 </li>
                 <li className="flex items-center gap-4">
-                  <Image src="/em_logo.png" alt="ExxonMobil" width={42} height={42} />
+                  <Image src="/em_Logo.png" alt="ExxonMobil" width={42} height={42} />
                   <div><strong>ExxonMobil</strong> – Software Engineer</div>
                 </li>
                 <li className="flex items-center gap-4">
