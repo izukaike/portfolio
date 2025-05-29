@@ -2,6 +2,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Home() {
+    useEffect(() => {
+    fetch('/api/visit', {
+      method: 'POST',
+    });
+  }, []);
   return (
     <main className="min-h-screen bg-[#0f2b3a] text-white font-sans sm:px-20 xl:px-17 ">
       <div className="max-w-screen-xl mx-auto">
