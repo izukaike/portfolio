@@ -86,7 +86,7 @@ export default function Home() {
             <h3 className="text-3xl font-semibold mb-8">Skills & Tools</h3>
             <div className="flex flex-wrap gap-x-3 gap-y-3 mb-23">
               {[
-                'C/C++', 'Python', 'SystemVerilog', 'MATLAB/Simulink', 'Linux', 'Altium', 'Git', 'FPGA Design', 'Embedded Systems',
+                'C/C++', 'Python', 'SystemVerilog', 'MATLAB/Simulink', 'Embedded Hardware Design', 'Linux', 'Altium', 'Git', 'FPGA Design', 'Embedded Systems',
                 'LabVIEW', 'Motor Control', 'Soldering/Re-Work', 'Sensors & Instrumentation', 'Data Acquisition (DAQ)',
                 'SI/PI Analysis', 'PCB Design & Fabrication', 'EMI/EMC Testing', 'Digital Communication', 'Wireless Communication',
                 'Real-Time Systems', 'GNSS/RF Systems', 'Avionics', 'High-Speed Digital Design','Power Electronics',
