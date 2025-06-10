@@ -101,7 +101,7 @@ export default function Home() {
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-sm list-disc list-inside font-semibold">
               <li>Embedded Systems</li>
               <li>Electronics</li>
-              <li>GPU Design</li>
+              <li>GPU Programming</li>
               <li>Advanced Digital Logic</li>
               <li>Microprocessor Systems</li>
               <li>Digital Signal Processing</li>
