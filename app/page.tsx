@@ -19,7 +19,7 @@ export default function Home() {
         <div className="w-full md:w-1/2 px-4 sm:px-6 ">
           <h2 className="text-4xl sm:text-4xl font-bold mb-3">Hi, I'm Izuka Ikedionwu</h2>
           <p className="text-lg sm:text-xl text-[#f0f0f0] mb-4">
-            I'm an <span className="text-[#4cd4cb] font-semibold">Electrical & Computer Engineering</span> Master's student specializing in power systems/electronics. I have an undergraduate
+            I'm an <span className="text-[#4cd4cb] font-semibold">Electrical & Computer Engineering</span> Master's student specializing in power electronics. I have an undergraduate
             degree in Electrical & Computer Engineering and minors in Computer Science & Mathematics
             with real-world experience across the consumer electronics, aerospace, defense, and energy industry with a passion for making technology smarter, faster, cheaper, and more efficient.
           </p>
