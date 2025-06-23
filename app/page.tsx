@@ -171,9 +171,14 @@ export default function Home() {
 
       <section id="blog" className="min-h-[20vh] p-6 sm:p-12 bg-[#194159] text-[#ffffff]">
         <h3 className="text-3xl font-bold mb-4">Blog</h3>
-        <p className="max-w-2xl mx-auto text-center text-lg">
-          Coming soon: Deep dives on technical theory, practical engineering applications, and hands on tutorials, all aimed
-           at sharing what I learn and helping close the education gap!
+          <p className="max-w-2xl mx-auto text-center text-lg">
+            <Link href="https://substack.com/@izukaike?utm_source=user-menu">
+              <p>
+                "Engineering is the art of directing the great sources of power in nature for the use and convenience of man."
+                 — Thomas Tredgold
+              </p>
+              <span className="underline hover:text-[#4cd4cb]">Click Here to Read!</span>
+            </Link>
         </p>
       </section>
 
