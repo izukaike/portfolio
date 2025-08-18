@@ -82,11 +82,11 @@ export default function Home() {
             <h3 className="text-3xl font-semibold mb-8">Skills & Tools</h3>
             <div className="flex flex-wrap gap-x-3 gap-y-3 mb-23">
               {[
-                'C/C++', 'Python', 'SystemVerilog','CUDA Programming', 'MATLAB/Simulink', 'Embedded Hardware Design', 'Linux', 'Altium', 'Git', 'FPGA Design', 'Embedded Systems',
-                'LabVIEW', 'Motor Control', 'Soldering/Re-Work', 'Sensors & Instrumentation', 'Low-Latency C++','Data Acquisition (DAQ)',
-                'SI/PI Analysis', 'PCB Design & Fabrication', 'EMI/EMC Testing', 'Digital Communication', 'Wireless Communication',
-                'Real-Time Systems', 'GNSS/RF Systems', 'Avionics', 'High-Speed Digital Design','Power Electronics',
-                'Schematic Capture & Simulation', 'Autonomous Control Systems', 'Computer Vision', 'Industrial Panel Design','Bash'
+                'C/C++', 'Python', 'SystemVerilog','CUDA', 'MATLAB/Simulink', 'Linux/ Shell Scripting', 'Altium', 'Git',
+                'LabVIEW', 'Motor Control', 'Soldering/Re-Work', 
+                'SI/PI Analysis', 'PCB Schematic/Simulation/Layout', 'EMI/EMC Testing',
+                'GNSS/RF System Testing', 'Avionics', 'High-Speed Digital Design','Power Electronics',
+                 'Autonomous Control Systems', 'Computer Vision', 'Industrial Panel Design', 'NX Siemens'
               ].map(skill => (
                 <span key={skill} className="bg-[#194159] text-white px-3 py-1 rounded-full text-sm border border-[#4cd4cb]">
                   {skill}
