@@ -95,8 +95,10 @@ export default function Home() {
             </div>
             <h3 className="text-3xl font-semibold mb-8">Relevant Coursework</h3>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-sm list-disc list-inside font-semibold">
+              <li>High Frequency Electronics</li>
               <li>Embedded Systems</li>
               <li>Electronics</li>
+              <li>System-on-Chip Design</li>
               <li>GPU Programming</li>
               <li>Advanced Digital Logic</li>
               <li>Microprocessor Systems</li>
@@ -113,7 +115,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+embe
       <section id="projects" className="min-h-[80vh] p-6 sm:p-12 bg-[#143344] text-[#f0f0f0]">
         <h3 className="text-3xl font-bold mb-6">Projects</h3>
         <ul className="space-y-12">
