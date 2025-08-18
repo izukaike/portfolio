@@ -115,7 +115,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-embe
+
       <section id="projects" className="min-h-[80vh] p-6 sm:p-12 bg-[#143344] text-[#f0f0f0]">
         <h3 className="text-3xl font-bold mb-6">Projects</h3>
         <ul className="space-y-12">
