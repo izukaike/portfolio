@@ -95,10 +95,11 @@ export default function Home() {
             </div>
             <h3 className="text-3xl font-semibold mb-8">Relevant Coursework</h3>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-sm list-disc list-inside font-semibold">
-              <li>High Frequency Electronics</li>
+              <li>RF/Microwave Circuits</li>
               <li>Embedded Systems</li>
               <li>Electronics</li>
-              <li>System-on-Chip Design</li>
+              <li>Antenna & Wireless Propagation</li>
+              <li>Computational Intelligence</li>
               <li>GPU Programming</li>
               <li>Advanced Digital Logic</li>
               <li>Microprocessor Systems</li>
