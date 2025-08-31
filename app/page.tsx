@@ -43,11 +43,12 @@ export default function Home() {
       <section id="about" className="min-h-[90vh] p-6 sm:p-12 bg-[#0f2b3a] text-[#eaeaea]">
         <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <div>
-            <h3 className="text-4xl font-bold mb-10">About me</h3>
+            <h3 className="text-4xl font-bold mb-6">About me</h3>
             <div className="space-y-4 text-lg leading-relaxed">
-              <p>I'm <strong>Izuka Ikedionwu!</strong> I’m currently working on my <strong>Master’s in Electrical and Computer Engineering</strong> at Baylor University, focusing on power electronics.</p>
-              <p>I love building top-notch hardware and software across <strong>aerospace, energy, defense, and tech</strong>. I’ve worked on everything from low-level embedded systems transistor circuits to large-scale data processing pipelines analyzing 450 miles of power
-               infrastructure tackling <strong>avionics, RF, control, digital, and power</strong> systems. I’m all about bridging the gap between the problem, the design, the implementation, and the solution.</p>
+              <p>I'm <strong>Izuka Ikedionwu!</strong> and I like problem-solving, learning, and physics. I’m currently working on my <strong>Master’s in Electrical and Computer Engineering</strong> at Baylor University, focusing on power electronics , but my curiosity has always 
+              stretched far beyond the classroom. I love diving into new ideas, connecting concepts across disciplines, and challenging myself to understand how the world works at its most fundamental level.</p>
+              <p>Engineering to me is where that curiosity meets purpose. I want to be part of building the future. I like building top-notch hardware and software across <strong>aerospace, energy, defense, and tech</strong>. I’ve worked on everything from low-level embedded systems transistor circuits to large-scale data processing pipelines analyzing 450 miles of power
+               infrastructure tackling <strong>avionics, RF, control, digital, and power</strong> systems. I’m all about striving for excellence bridging the gap between the problem, the design, the implementation, and the solution.</p>
               <p>Outside of engineering, you’ll usually find me at the gym, playing pickup basketball or golf, learning something new, or knee-deep in a side project just for the fun of it.</p>
             </div>
 
@@ -80,7 +81,7 @@ export default function Home() {
 
           <div>
             <h3 className="text-3xl font-semibold mb-8">Skills & Tools</h3>
-            <div className="flex flex-wrap gap-x-3 gap-y-3 mb-23">
+            <div className="flex flex-wrap gap-x-3 gap-y-3 mb-8">
               {[
                 'C/C++', 'Python', 'SystemVerilog','CUDA', 'MATLAB/Simulink', 'Linux/ Shell Scripting', 'Altium', 'Git',
                 'LabVIEW', 'Motor Control', 'Soldering/Re-Work', 
@@ -93,6 +94,23 @@ export default function Home() {
                 </span>
               ))}
             </div>
+
+             <h3 className="text-3xl font-semibold mt-4 mb-6">Extracurriculars</h3>
+                <ul className="space-y-6 text-lg md:text-l mb-8">
+                  <li>
+                    <strong>Computing For Compassion (C4C)</strong> – Vice-President
+                  </li>
+                  <li>
+                    <strong>Baylor University</strong> – Master Tutor
+                  </li>
+                  <li>
+                    <strong>National Society of Black Engineers</strong> – Member / Mentor
+                  </li>
+                  <li>
+                    <strong>Baylor Buddies</strong> – Elementary School Volunteer
+                  </li>
+                </ul>
+
             <h3 className="text-3xl font-semibold mb-8">Relevant Coursework</h3>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-sm list-disc list-inside font-semibold">
               <li>RF/Microwave Circuits</li>
