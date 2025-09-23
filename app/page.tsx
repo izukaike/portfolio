@@ -130,7 +130,7 @@ export default function Home() {
             <h3 className="text-3xl font-semibold mb-4">Tools</h3>
             <div className="flex flex-wrap gap-x-3 gap-y-3 mb-4">
               {[
-                'C/C++','Oscilliscope', 'Python', 'SystemVerilog','Git', 'Vector Network Analyzer', 'KiCad','Electronic Load (E-Load)', 'Thermal Chamber','Linux/Bash', 'Altium', 'Spectrum Analyzer', 'Signal Generator'
+                'C/C++','Oscilliscope', 'Python', 'SystemVerilog','Git', 'ADS', 'Vector Network Analyzer', 'KiCad','Electronic Load (E-Load)', 'Thermal Chamber','Linux/Bash', 'Altium', 'Spectrum Analyzer', 'Signal Generator'
                 , 'Multimeter/DMM', 'Power Supply', 'LabVIEW', 'Logic Analyzer','Soldering Station','3D Printing',  'MATLAB/Simulink', 'NX Siemens CAD'
               ].map(skill => (
                 <span key={skill} className="bg-[#194159] text-white px-3 py-1 rounded-full text-sm border border-[#4cd4cb]">
