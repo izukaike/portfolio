@@ -33,7 +33,7 @@ export default function Home() {
             <a href="mailto:izukaikedionwu@gmail.com">
               <Image src="/email_logo.svg" alt="Email" width={50} height={50} />
             </a>
-            <a href="/Izuka_Ikedionwu_Resume_v0.pdf">
+            <a href="/Izuka_Ikedionwu_Resume_v1.pdf">
               <Image src="/resume.svg" alt="Resume" width={45} height={45} />
             </a>
           </div>
