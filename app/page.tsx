@@ -20,8 +20,8 @@ export default function Home() {
           <h2 className="text-4xl sm:text-4xl font-bold mb-3">Hi, I'm Izuka Ikedionwu</h2>
           <p className="text-lg sm:text-xl text-[#f0f0f0] mb-4">
             I'm an <span className="text-[#4cd4cb] font-semibold">Electrical & Computer Engineering</span> Master's student specializing in power electronics. I have an undergraduate
-            degree in Electrical & Computer Engineering and minors in Computer Science & Mathematics
-            with real-world experience across the consumer electronics, aerospace, defense, and energy industry with a passion for making technology smarter, faster, cheaper, and more efficient.
+            degree in Electrical & Computer Engineering and minors in Computer Science & Mathematics. I am active in my community where I was the VP of Computing for Compassion (tech based service club) and a Baylor Master Tutor where I
+            helped college students in their math, physics, computer science, and engineering courses. I have real-world experience across the consumer electronics, aerospace, defense, and energy industry with a passion for making technology smarter, faster, cheaper, and more efficient.
           </p>
           <div className="w-full md:w-1/2 flex justify-left">
             <a href="https://www.linkedin.com/in/izuka-ikedionwu" target="_blank" rel="noopener noreferrer">
