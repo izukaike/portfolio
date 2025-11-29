@@ -20,8 +20,10 @@ export default function Home() {
           <h2 className="text-4xl sm:text-4xl font-bold mb-3">Hi, I'm Izuka Ikedionwu</h2>
           <p className="text-lg sm:text-xl text-[#f0f0f0] mb-4">
             I'm an <span className="text-[#4cd4cb] font-semibold">Electrical & Computer Engineering</span> Master's student specializing in power electronics. I have an undergraduate
-            degree in Electrical & Computer Engineering and minors in Computer Science & Mathematics. I am active in my community where I was the VP of Computing for Compassion (tech based service club) and a Baylor Master Tutor where I
-            helped college students in their math, physics, computer science, and engineering courses. I have real-world experience across the consumer electronics, aerospace, defense, and energy industry with a passion for making technology smarter, faster, cheaper, and more efficient.
+            degree in Electrical & Computer Engineering and minors in Computer Science & Mathematics. I was the VP of Computing for Compassion (tech based service club) 
+            and a Baylor Master Tutor where I helped college students in their math, physics, computer science, and engineering courses.
+            I have real-world experience across the consumer electronics, aerospace, defense, and energy industry with a passion for making technology smarter, faster, cheaper, and more efficient.
+            I want to use my curiosity, experience, and drive to work on cutting-edge technology, expand the engineering communication space, and contribute to shaping ideas and direction in a collaborative way.
           </p>
           <div className="w-full md:w-1/2 flex justify-left">
             <a href="https://www.linkedin.com/in/izuka-ikedionwu" target="_blank" rel="noopener noreferrer">
@@ -33,7 +35,7 @@ export default function Home() {
             <a href="mailto:izukaikedionwu@gmail.com">
               <Image src="/email_logo.svg" alt="Email" width={50} height={50} />
             </a>
-            <a href="/Izuka_Ikedionwu_Resume_2025.pdf">
+            <a href="/Izuka_Ikedionwu_Resume_v0.pdf">
               <Image src="/resume.svg" alt="Resume" width={45} height={45} />
             </a>
           </div>
@@ -65,7 +67,7 @@ export default function Home() {
       <section id="about" className="min-h-[90vh] p-6 sm:p-12 bg-[#0f2b3a] text-[#eaeaea]">
         <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <div>
-            <h3 className="text-4xl font-bold mb-6">About me</h3>
+            <h3 className="text-4xl font-bold mb-6">About Me</h3>
             <div className="space-y-4 text-xl leading-relaxed">
               <p>I’m Izuka Ikedionwu, a Master’s student in Electrical and Computer Engineering at Baylor University, 
                 specializing in power electronics. My curiosity has always gone far beyond the classroom. I love diving
@@ -90,22 +92,62 @@ export default function Home() {
                   <Image src="/spacex_logo.svg" alt="SpaceX" width={42} height={42} />
                   <div><strong>SpaceX</strong> – Starlink Hardware Design Engineer</div>
                 </li>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-m list-disc list-inside">
+                  <li>Power Electronics</li>
+                  <li>System-on-Chip</li>
+                  <li>Phased-Array Antennas</li>
+                  <li>Memory Hardware</li>
+                  <li>RF/GNSS Systems</li>
+                  <li>Lab Equipment Automation</li>
+                </ul>
                 <li className="flex items-center gap-4">
                   <Image src="/spacex_logo.svg" alt="SpaceX" width={42} height={42} />
                   <div><strong>SpaceX</strong> – Data & Control Systems Engineer</div>
                 </li>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-m list-disc list-inside">
+                  <li>DAQ/Sensors</li>
+                  <li>Electric Motors</li>
+                  <li>Panel Build</li>
+                  <li>Mechanical CAD</li>
+                  <li>Firmware</li>
+                  <li>Data Analysis</li>
+                </ul>
                 <li className="flex items-center gap-4">
                   <Image src="/lm_logo.svg" alt="Lockheed Martin" width={42} height={42} />
                   <div><strong>Lockheed Martin</strong> – Embedded Systems Engineer</div>
                 </li>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-m list-disc list-inside">
+                  <li>FPGAs</li>
+                  <li>Custom Digital Logic</li>
+                  <li>SystemVerilog</li>
+                  <li>SERDES</li>
+                  <li>Python</li>
+                  <li>Hardware Prototype</li>
+                </ul>
                 <li className="flex items-center gap-4">
                   <Image src="/nv_icon.png" alt="Non-Von,LLC" width={42} height={42} />
                   <div><strong>Non-Von, LLC</strong> – Hardware Systems Engineer</div>
                 </li>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-m list-disc list-inside">
+                  <li>AI Inference</li>
+                  <li>HW Validation</li>
+                  <li>Power Systems</li>
+                  <li>Schematic & Layout</li>
+                  <li>MCU + FPGA PCBs</li>
+                  <li>High-Speed Design</li>
+                </ul>
                 <li className="flex items-center gap-4">
                   <Image src="/em_Logo.png" alt="ExxonMobil" width={42} height={42} />
                   <div><strong>ExxonMobil</strong> – Software Engineer</div>
                 </li>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-m list-disc list-inside">
+                  <li>Python</li>
+                  <li>Data Analysis</li>
+                  <li>Power Line Infrastructure</li>
+                  <li>GIS Software</li>
+                  <li>Real-Time App Development</li>
+                  <li>Web-Based Data Mining</li>
+                </ul>
                 <li className="flex items-center gap-4">
                   <Image src="/bu_logo.png" alt="Baylor University" width={42} height={42} />
                   <div><strong>Baylor University</strong> – Graduate Research Engineer</div>
@@ -120,7 +162,7 @@ export default function Home() {
               {[
                 'Analog Circuits','Mixed-Signal Circuits', 'Digital Circuits', 'Networking', 'Data Analysis', 'DFX/DFM/DFT'
                 , 'PCB Schematic/Simulation/Layout','FPGA', 'GNSS/RF/EMI System Testing',' Power Electronics Design','Firmware',
-                 'Autonomous Control Systems', 'Computer Vision', 'Industrial Panel Design', 'Motor Control', 'Sensor Integraion', 'Digital Comms', 'Embedded Electronics'
+                 'Autonomous Control Systems', 'Computer Vision', 'Industrial Panel Design', 'Motor Control', 'DAQ/Sensors', 'Digital Comms', 'Embedded Electronics'
               ].map(skill => (
                 <span key={skill} className="bg-[#194159] text-white px-3 py-1 rounded-full text-sm border border-[#4cd4cb]">
                   {skill}
@@ -130,7 +172,7 @@ export default function Home() {
             <h3 className="text-3xl font-semibold mb-4">Tools</h3>
             <div className="flex flex-wrap gap-x-3 gap-y-3 mb-4">
               {[
-                'C/C++','Oscilliscope', 'Python', 'SystemVerilog','Git', 'ADS', 'Vector Network Analyzer', 'KiCad','Electronic Load (E-Load)', 'Thermal Chamber','Linux/Bash', 'Altium', 'Spectrum Analyzer', 'Signal Generator'
+                'C/C++','Oscilliscope', 'Python', 'SystemVerilog','Git', 'Vector Network Analyzer', 'KiCad','Electronic Load (E-Load)', 'Thermal Chamber','Linux/Bash', 'Altium', 'Spectrum Analyzer', 'Signal Generator'
                 , 'Multimeter/DMM', 'Power Supply', 'LabVIEW', 'Logic Analyzer','Soldering Station','3D Printing',  'MATLAB/Simulink', 'NX Siemens CAD'
               ].map(skill => (
                 <span key={skill} className="bg-[#194159] text-white px-3 py-1 rounded-full text-sm border border-[#4cd4cb]">
@@ -145,22 +187,39 @@ export default function Home() {
                     <Image src="/c4c_icon.png" alt="Baylor University" width={42} height={42} />
                    <div><strong>Computing For Compassion (C4C)</strong> – Vice-President</div>
                   </li>
+                  <ul className="list-disc pl-[60px] text-lg text-[#d0d0d0] space-y-1">
+                    <li>Started an after school computer technology class for middle and high schoolers</li>
+                    <li>Planned and hosted annual an hackathon for 27 teams</li>
+                    <li>Hosted several professors and local professionals to expand student networks and modern technoolgy</li>
+                  </ul>
                   <li className="flex items-center gap-4">
                     <Image src="/bu_logo.png" alt="Baylor University" width={42} height={42} />
                     <div><strong>Baylor University</strong> – Master Tutor</div>
                   </li>
+                  <ul className="list-disc pl-[60px] text-lg text-[#d0d0d0] space-y-1">
+                    <li>Helped college level students in Calculus (1,2,3), Physics 1 & 2, Circuit Analysis, Intro. to Engineering (1,2), and Data Structures</li>
+                    <li>Ran a Calculus 1 class attended by up to 25 students per week for a semester</li>
+                    <li>Hosted several professors and local professionals to expand student networks and modern technoolgy</li>
+                  </ul>
                   <li className="flex items-center gap-4">
                     <Image src="/nsbe_icon.png" alt="Baylor University" width={42} height={42} />
                     <div><strong>National Society of Black Engineers</strong> – Memeber & Mentor</div>
                   </li>
+                  <ul className="list-disc pl-[60px] text-lg text-[#d0d0d0] space-y-1">
+                    <li>Attended local community service, professional talks, and social events</li>
+                    <li>Attended the NSBE 48,49, and 51 conferences all over the country</li>
+                  </ul>
                   <li className="flex items-center gap-4">
                     <Image src="/bu_logo.png" alt="Baylor University" width={42} height={42} />
                     <div><strong>Baylor Buddies</strong> – Elementary School Volunteer</div>
                   </li>
+                  <ul className="list-disc pl-[60px] text-lg text-[#d0d0d0] space-y-1">
+                    <li>Mentored and tutored 3 kids for 2 years at a local elemetary school</li>
+                  </ul>
                 </ul>
 
             <h3 className="text-3xl font-semibold mb-8">Relevant Coursework</h3>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-sm list-disc list-inside font-semibold">
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-m list-disc list-inside font-semibold">
               <li>RF/Microwave Circuits</li>
               <li>Embedded Systems</li>
               <li>Electronics</li>
@@ -241,14 +300,12 @@ export default function Home() {
       <section id="blog" className="min-h-[20vh] p-6 sm:p-12 bg-[#194159] text-[#ffffff]">
         <h3 className="text-3xl font-bold mb-4">Blog</h3>
           <p className="max-w-2xl mx-auto text-center text-lg">
-            <Link href="https://substack.com/@izukaike?utm_source=user-menu">
-              
-                "Engineering is the art of directing the great sources of power in nature for the use and convenience of man."
-                 — Thomas Tredgold    
-              
-              <span className="underline hover:text-[#4cd4cb]">  Click Here to Read!</span>
-            </Link>
+            "I write as I investigate. Writing is another form of discovery."
+                 — Johannes Kepler 
         </p>
+        <Link href="https://substack.com/@izukaike?utm_source=user-menu">   
+              <p className="underline hover:text-[#4cd4cb] text-center text-2xl font-semibold">  Click Here to Read!</p>
+        </Link>
       </section>
 
       <footer className="p-4 sm:p-6 text-center text-[#aaaaaa]">
