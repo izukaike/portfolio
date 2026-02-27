@@ -303,7 +303,7 @@ export default function Home() {
             "I write as I investigate. Writing is another form of discovery."
                  — Johannes Kepler 
         </p>
-        <Link href="https://substack.com/@izukaike?utm_source=user-menu">   
+        <Link href="https://substack.com/@thetechhorizon?utm_source=user-menu">   
               <p className="underline hover:text-[#4cd4cb] text-center text-2xl font-semibold">  Click Here to Read!</p>
         </Link>
       </section>
