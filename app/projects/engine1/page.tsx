@@ -65,7 +65,7 @@ export default function RocketGUI() {
       {/* Project Overview Section */}
       <section className="mb-10">
         <h2 className="text-3xl font-semibold text-[#4cd4cb] mb-12 item-center">Project Overview</h2>
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-1 gap-6">
           {/* Block Diagram Image */}
           <div className="p-4 rounded-md flex justify-center flex-col items-center">
             <Image
@@ -78,19 +78,31 @@ export default function RocketGUI() {
           </div>
 
           {/* Technical Explanation */}
-          <div className="text-[#f0f0f0] text-base leading-relaxed item-center">
-            <p className="mb-4">
-              The system consists of a data acquisition and control architecture using an <strong>ATmega328P microcontroller</strong>.
-              Embedded software was written in <strong>C++</strong> for <strong>UART</strong> communication real-time polling of <strong>voltage and current analog sensors (pressure transducers) </strong>
-              and digital outputs to drive <strong>1A-32A Solenoid Valves</strong> using <strong>relays</strong> powered by a car battery. The software also interfaces with
-              on board <strong>EEPROM</strong> for critical data saving.
-            </p>
-            <p className="mb-4">
-              On the GUI side, I built a Python-based GUI using <strong>PyQt</strong> framework for real-time data visualization, serial communication via UART, and test sequence control. 
-              The platform performs synchronized sampling, signal conditioning, ADC calibration routines, while maintaining responsiveness under different engine behavior.
-            </p>
+          <div className="text-[#f0f0f0] text-base space-y-6">
+            <p>Responsible for circuit design, front-end, and back-end implementation of rocket engine control.</p>
+              <div className="grid grid-cols-1 gap-x-8">
+                <div>
+                  <ul className="list-disc list-inside space-y-1">
+                    <li>Bare-metal drivers</li>
+                    <ul className="list-disc list-inside ml-6 mt-1">
+                       <li>GPIO (ignition coil, feedback, and solenoid valves)</li>
+                       <li>ADC (sensor data acquisition)</li>
+                       <li>UART (telemetry between microcontroller and host computer)</li>
+                       <li>EEPROM (critical data read/write interface)</li>
+                    </ul>
+                    <li>Reduced Telemetry bottleneck by 38% using bitwise telemetry algorithm for 3 (C++ and Python) Pressure Transducer sensors</li>
+                    <li>Developed C++ for Current and Voltage Sensor Signal Processing and Optimization</li>
+                    <li>Implemented Object-Oriented Programming Architecture</li>
+                    <li>Used Python (PyQt) multithreading for 4 real-time plots, engine health, two-factor safety, hot fire testing, and coil control</li>
+                    <li>Created automated data recording (OpenPyXL to XLSX) and post-run analysis (Matplotlib/Tkinter), supporting operator review and pass/fail gating.</li>
+                    <li>Integrated and tested LS2 ignition coil, pressure transducers, relays, DC-DC converter, 12V battery, and supporting components on rocket engine test stand using multimeter, oscilloscope, and soldering tools</li>
+                    <li>Designed data flow for real-time logging, safety interlocks, and GUI visualization</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
           </div>
-        </div>
       </section>
 
     

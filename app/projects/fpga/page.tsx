@@ -69,7 +69,7 @@ export default function RocketGUI() {
       {/* Project Overview Section */}
       <section className="mb-10">
         <h2 className="text-3xl font-semibold text-[#4cd4cb] mb-12 item-center">Project Overview</h2>
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-1 gap-6">
           {/* Block Diagram Image */}
           <div className="p-4 rounded-md flex justify-center flex-col items-center">
             <Image
@@ -84,19 +84,22 @@ export default function RocketGUI() {
           {/* Technical Explanation */}
           <div className="text-[#f0f0f0] text-base leading-relaxed item-center">
             <p className="mb-4">
-            I designed and built a custom embedded computing system centered around a 
-            64-bit pipelined processor implemented in <strong>ystemVerilog on an FPGA</strong>. The processor
-             used a classic <strong>5-stage architecture</strong> (Fetch, Decode, Execute, Memory, and Writeback) modeled
-              after the ARMv8 and LEGv8 ISAs. I wrote the datapath from scratch in SystemVerilog, 
-              integrating essential components like the register file, ALU, and control logic.
-               Following a modern Von Neumann architecture, both instruction and data memory 
-               were shared and stored in onboard DDR2 RAM. To interface with this memory, f
-               I implemented a <strong>memory controller interface</strong> that synchronized CPU memory access
-                with the DDR2 protocol. On the software side, I developed an assembler in 
-                <strong>Python</strong> capable of parsing and encoding a <strong>23 instructions</strong>. The system supports 
-                basic arithmetic, logic, and control operations, with program results visualized 
-                using onboard LEDs for real-time feedback.
-            </p>
+              I designed and built a custom embedded computing system centered around a 
+              64-bit pipelined processor implemented in <strong>ystemVerilog on an FPGA</strong>.</p>
+            <div className="grid grid-cols-1 gap-x-8">
+                <div>
+                  <ul className="list-disc list-inside space-y-1">
+                    <li>Implemented pipelined 5-stage (IF, ID, EX, MEM, WB) 64-Bit ARM microprocessor in SystemVerilog</li>
+                    <li>Integrated a memory controller interface (mig) for DDR2 SDRAM memory wrapper</li>
+                    <li>Designed FSM for instruction execution and memory read/write</li>
+                    <li>Built test benches for validation & verification</li>
+                    <li>Wrote a CDC module by using a FIFO buffer interfacing PC to eval board</li>
+                    <li>Programmed a LEGv8 assembler for 32 instructions in Python</li>
+                    <li>Programmed Python UART interface to FPGA</li>
+                    <li>Coded SystemVerilog UART interface to host PC</li>
+                  </ul>
+                </div>
+              </div>
           </div>
         </div>
       </section>
