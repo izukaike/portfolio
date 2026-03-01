@@ -4,26 +4,25 @@ import Link from 'next/link';
 export default function Home() {
 
   return (
-    <main className="min-h-screen bg-[#0f2b3a] text-white font-sans sm:px-20 xl:px-17 ">
+    <main className="min-h-screen bg-[#f1f5f9] text-white font-sans sm:px-20 xl:px-17 ">
       <div className="max-w-screen-xl mx-auto">
-      <header className="flex flex-col md:flex-row justify-between items-left p-6 space-y-4 md:space-y-0">
-        <h1 className="text-2xl font-bold">I. A. I.</h1>
-        <nav className="flex flex-wrap justify-center gap-4 text-sm md:text-base font-semibold">
-          <a href="#about" className="hover:underline">About</a>
-          <a href="#projects" className="hover:underline">Projects</a>
-          <a href="#blog" className="hover:underline">Blog</a>
+      <header className="flex flex-col md:flex-row justify-between items-left p-6 space-y-4 md:space-y-0 ">
+        <h1 className="text-2xl font-bold text-[#000000]  ">I. A. I.</h1>
+        <nav className="flex flex-wrap justify-center gap-4 text-sm md:text-base font-semibold ">
+          <a href="#about" className="hover:underline text-[#000000] ">About</a>
+          <a href="#projects" className="hover:underline text-[#000000]">Projects</a>
+          <a href="#blog" className="hover:underline text-[#000000]">Blog</a>
         </nav>
       </header>
 
-      <section className="min-h-[90vh] flex flex-col-reverse md:flex-row items-center justify-center gap-10 py-16 bg-[#194159] text-center md:text-left">
+      <section className="min-h-[90vh] flex flex-col-reverse md:flex-row items-center justify-center gap-10 py-16 bg-[#ffffff] text-center md:text-left">
         <div className="w-full md:w-1/2 px-4 sm:px-6 -translate-x-20 ">
-          <h2 className="text-4xl sm:text-4xl font-bold mb-3">Hi, I'm Izuka Ikedionwu</h2>
-          <p className="text-lg sm:text-xl text-[#f0f0f0] mb-4">
-            I'm an <span className="text-[#4cd4cb] font-semibold">Electrical & Computer Engineering</span> Master's student specializing in power electronics. I have an undergraduate
-            degree in Electrical & Computer Engineering and minors in Computer Science & Mathematics. I was the VP of Computing for Compassion (tech based service club) 
-            and a Baylor Master Tutor where I helped college students in their math, physics, computer science, and engineering courses.
-            I have real-world experience across the consumer electronics, aerospace, defense, and energy industry with a passion for making technology smarter, faster, cheaper, and more efficient.
-            I want to use my curiosity, experience, and drive to work on cutting-edge technology, expand the engineering communication space, and contribute to shaping ideas and direction in a collaborative way.
+          <h2 className="text-4xl sm:text-4xl font-bold mb-3 text-[#000000] ">Hi, I'm Izuka Ikedionwu</h2>
+          <p className="text-lg sm:text-xl text-[#000000] mb-4">
+            I am an electrical engineer with experience in digital and analog electrical systems,
+            embedded systems, computer architecture, and software development. I’m driven by learning new technologies, improving how systems and teams operate, and 
+            delivering real results. I’m usually working on multiple projects and enjoy connecting, collaborating, and building alongside like-minded people. Check out
+            my Github, LinkedIn, resume and contact me if you would like to get in touch. 
           </p>
           <div className="w-full md:w-1/2 flex justify-left">
             <a href="https://www.linkedin.com/in/izuka-ikedionwu" target="_blank" rel="noopener noreferrer">
@@ -64,209 +63,190 @@ export default function Home() {
 </div>
       </section>
 
-      <section id="about" className="min-h-[90vh] p-6 sm:p-12 bg-[#0f2b3a] text-[#eaeaea]">
-        <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+      <section id="about" className="min-h-[90vh] p-6 sm:p-12 bg-[#ffffff] text-[#eaeaea]">
+        <div className="grid md:grid-cols-1 gap-12 max-w-6xl mx-auto text-[#000000]">
           <div>
-            <h3 className="text-4xl font-bold mb-6">About Me</h3>
-            <div className="space-y-4 text-xl leading-relaxed">
-              <p>I’m Izuka Ikedionwu, a Master’s student in Electrical and Computer Engineering at Baylor University, 
-                specializing in power electronics. My curiosity has always gone far beyond the classroom. I love diving
-                 into new ideas, connecting concepts across disciplines, and challenging myself to understand how the world
-                  works at its most fundamental level.</p>
-                  <p>Engineering, to me, is where curiosity meets purpose. I enjoy building
-                   high-performance hardware and software across aerospace, energy, defense, and technology. My experience
-                    spans from low-level embedded systems and transistor-level circuits to large-scale data pipelines and
-                     power infrastructure, tackling avionics, RF, control, digital, and power systems. I thrive on 
-                      the gap between the problem, the design, and the solution.
-                       Outside of engineering, you’ll usually find me at the gym, on the basketball
-                        court, golfing, or working on a new side project just for the fun of it. I enjoy pushing myself
-                         to learn new skills, whether through building, experimenting, or simply exploring new challenges.</p>
+            <h3 className="text-4xl font-bold mb-4 text-center">About Me</h3>
 
-              <p>Outside of engineering, you’ll usually find me at the gym, playing pickup basketball or golf, learning something new, or knee-deep in a side project just for the fun of it.</p>
+            <h4 className="text-2xl font-bold text-[#000000] mb-3">
+            Who am I?
+            </h4>
+
+            <div className="space-y-4 text-xl leading-relaxed mb-3">
+              <p>I’m an Oklahoma native based in Texas, joining Blue Origin
+                 full-time as an Electrical Engineer in the New Grad Rotation Program,
+                  where I get to work on cutting-edge space technology. I founded Launchpad,
+                   a youth engineering initiative focused on inspiring more students to pursue
+                    engineering. Additionally, I also run a 
+                {' '}<a 
+                  href="https://substack.com/@thetechhorizon" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-[#777777] font-bold hover:underline"
+                >
+                  blog
+                </a>{' '}
+
+                 giving my thoughts on space tech, engineering, and business.
+                 
+                 </p>
+
+                 <p>
+                  In my freetime I enjoy staying active whether that is running, working out, and playing pick up basketball.
+                  I am also a big fan of the arts so I love listening to music, watching movies, and reading books, and going 
+                  to all kinds of museums.
+                 </p>
             </div>
 
-            <div className="mt-10">
-              <h4 className="text-3xl font-semibold mb-4">Internships & Experience</h4>
-              <ul className="space-y-6 text-lg md:text-l ">
-                <li className="flex items-center gap-4">
+            <h4 className="text-2xl font-bold text-[#000000] mb-3">
+            How did I get here?
+            </h4>
+
+            <div className="space-y-4 text-xl leading-relaxed mb-3">
+              <p> I earned my B.S. and MEng in electrical & computer engineering from
+                 Baylor University with minors in computer science and mathematics focusing on electronics, FPGAs, and embedded systems.
+              </p>
+              <p> Outside of the classroom I was very curious and involved in extra curriculars.
+                I was the Vice-President of Computing for Compassion (C4C), where I led efforts to host hackathons, social events,
+                guest speakers, and ultimately started and ran a computer technology class for middle and high schoolers.</p>
+                <p>Additionally,
+                I was a university tutor for Baylor helping students in calculus 1-3, introductory engineering, computer science, and physics classes for 2. I also led
+                a classroom of +25 students weekly creating lesson plans, worksheets, and university website study guides that are still in use over 4 years later
+                </p>
+                <p>Finally, I was involved in my universities aerospace club where  I was the lead electrical engineer directed all electricla systems for the schools first
+                2 liquid fueled rocket engines.
+              </p>
+
+            </div>
+
+            <h4 className="text-2xl font-bold text-[#000000] mb-3">
+            Where do I want to go?
+            </h4>
+
+            <div className="space-y-4 text-xl leading-relaxed mb-10">
+              <p> I want to be an elite engineer chasing hard problems with ambitious people, especially
+                in aerospace and other frontier industries. Over time, I hope to grow into leadership roles
+                 where I can connect engineering with business and help scale big ideas into real impact. Long
+                  term, I’d love to build, lead, or invest in companies that genuinely push humanity forward while continuing to grow, stay disciplined, and surround myself with 
+                  ambitious people doing the same. 
+              </p>
+            </div>
+          <h4 className=" text-center text-3xl font-semibold mb-4">Professional</h4>
+          </div>
+
+            <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto text-[#000000]">
+              
+              <div className="space-y-10">
+                <h3 className="text-2xl font-semibold mb-4">Industry</h3>
+                <li className="flex items-center gap-4 text-xl mb-5">
                   <Image src="/spacex_logo.svg" alt="SpaceX" width={42} height={42} />
                   <div><strong>SpaceX</strong> – Starlink Hardware Design Engineer</div>
                 </li>
-                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-m list-disc list-inside">
-                  <li>Power Electronics</li>
-                  <li>System-on-Chip</li>
-                  <li>Phased-Array Antennas</li>
-                  <li>Memory Hardware</li>
-                  <li>RF/GNSS Systems</li>
-                  <li>Lab Equipment Automation</li>
-                </ul>
-                <li className="flex items-center gap-4">
+                
+                <li className="flex items-center gap-4 text-xl mb-5">
                   <Image src="/spacex_logo.svg" alt="SpaceX" width={42} height={42} />
                   <div><strong>SpaceX</strong> – Data & Control Systems Engineer</div>
                 </li>
-                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-m list-disc list-inside">
-                  <li>DAQ/Sensors</li>
-                  <li>Electric Motors</li>
-                  <li>Panel Build</li>
-                  <li>Mechanical CAD</li>
-                  <li>Firmware</li>
-                  <li>Data Analysis</li>
-                </ul>
-                <li className="flex items-center gap-4">
+                
+                <li className="flex items-center gap-4 text-xl mb-5">
                   <Image src="/lm_logo.svg" alt="Lockheed Martin" width={42} height={42} />
                   <div><strong>Lockheed Martin</strong> – Embedded Systems Engineer</div>
                 </li>
-                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-m list-disc list-inside">
-                  <li>FPGAs</li>
-                  <li>Custom Digital Logic</li>
-                  <li>SystemVerilog</li>
-                  <li>SERDES</li>
-                  <li>Python</li>
-                  <li>Hardware Prototype</li>
-                </ul>
-                <li className="flex items-center gap-4">
+                
+                <li className="flex items-center gap-4 text-xl mb-5">
                   <Image src="/nv_icon.png" alt="Non-Von,LLC" width={42} height={42} />
                   <div><strong>Non-Von, LLC</strong> – Hardware Systems Engineer</div>
                 </li>
-                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-m list-disc list-inside">
-                  <li>AI Inference</li>
-                  <li>HW Validation</li>
-                  <li>Power Systems</li>
-                  <li>Schematic & Layout</li>
-                  <li>MCU + FPGA PCBs</li>
-                  <li>High-Speed Design</li>
-                </ul>
-                <li className="flex items-center gap-4">
+                
+                <li className="flex items-center gap-4 text-xl mb-5">
                   <Image src="/em_Logo.png" alt="ExxonMobil" width={42} height={42} />
                   <div><strong>ExxonMobil</strong> – Software Engineer</div>
                 </li>
-                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-m list-disc list-inside">
-                  <li>Python</li>
-                  <li>Data Analysis</li>
-                  <li>Power Line Infrastructure</li>
-                  <li>GIS Software</li>
-                  <li>Real-Time App Development</li>
-                  <li>Web-Based Data Mining</li>
-                </ul>
-                <li className="flex items-center gap-4">
-                  <Image src="/bu_logo.png" alt="Baylor University" width={42} height={42} />
-                  <div><strong>Baylor University</strong> – Graduate Research Engineer</div>
-                </li>
-              </ul>
-            </div>
-          </div>
 
-          <div>
-            <h3 className="text-3xl font-semibold mb-4">Skills</h3>
-            <div className="flex flex-wrap gap-x-3 gap-y-3 mb-4">
+                <h3 className="text-2xl font-semibold mb-4 ">Extra</h3>
+                <li className="flex items-center gap-4 text-xl mb-5">
+                    <Image src="/c4c_icon.png" alt="Baylor University" width={42} height={42} />
+                   <div><strong>Computing For Compassion (C4C)</strong> – Vice President</div>
+                  </li>
+                  
+                  <li className="flex items-center gap-4 text-xl mb-5">
+                    <Image src="/bu_logo.png" alt="Baylor University" width={42} height={42} />
+                    <div><strong>Baylor University</strong> – Master Tutor</div>
+                  </li>
+                  
+                  <li className="flex items-center gap-4 text-xl mb-5">
+                    <Image src="/nsbe_icon.png" alt="Baylor University" width={42} height={42} />
+                    <div><strong>National Society of Black Engineers</strong> – Memeber & Mentor</div>
+                  </li>
+                  
+                  <li className="flex items-center gap-4 text-xl mb-5">
+                    <Image src="/bu_logo.png" alt="Baylor University" width={42} height={42} />
+                    <div><strong>Baylor Buddies</strong> – Elementary School Volunteer</div>
+                  </li>
+              </div>
+             
+  
+             
+            <div className="space-y-10">
+            <h3 className="text-2xl font-semibold mb-4">Skills</h3>
+            <div className="flex flex-wrap gap-x-5 gap-y-4 mb-4 bg-[#ffffff]">
               {[
                 'Analog Circuits','Mixed-Signal Circuits', 'Digital Circuits', 'Networking', 'Data Analysis', 'DFX/DFM/DFT'
                 , 'PCB Schematic/Simulation/Layout','FPGA', 'GNSS/RF/EMI System Testing',' Power Electronics Design','Firmware',
                  'Autonomous Control Systems', 'Computer Vision', 'Industrial Panel Design', 'Motor Control', 'DAQ/Sensors', 'Digital Comms', 'Embedded Electronics'
               ].map(skill => (
-                <span key={skill} className="bg-[#194159] text-white px-3 py-1 rounded-full text-sm border border-[#4cd4cb]">
+                <span key={skill} className="bg-[#f1f5f9] px-3 py-1 rounded-full text-sm text-[#000000]">
                   {skill}
                 </span>
               ))}
             </div>
-            <h3 className="text-3xl font-semibold mb-4">Tools</h3>
-            <div className="flex flex-wrap gap-x-3 gap-y-3 mb-4">
+            <h3 className="text-2xl font-semibold mb-4">Tools</h3>
+            <div className="flex flex-wrap gap-x-5 gap-y-4 mb-4">
               {[
                 'C/C++','Oscilliscope', 'Python', 'SystemVerilog','Git', 'Vector Network Analyzer', 'KiCad','Electronic Load (E-Load)', 'Thermal Chamber','Linux/Bash', 'Altium', 'Spectrum Analyzer', 'Signal Generator'
                 , 'Multimeter/DMM', 'Power Supply', 'LabVIEW', 'Logic Analyzer','Soldering Station','3D Printing',  'MATLAB/Simulink', 'NX Siemens CAD'
               ].map(skill => (
-                <span key={skill} className="bg-[#194159] text-white px-3 py-1 rounded-full text-sm border border-[#4cd4cb]">
+                <span key={skill} className="bg-[#f1f5f9] px-3 py-1 rounded-full text-sm text-[#000000]">
                   {skill}
                 </span>
               ))}
             </div>
+            
 
-             <h3 className="text-3xl font-semibold mt-4 mb-6">Extracurriculars</h3>
-                <ul className="space-y-6 text-lg md:text-l mb-8">
-                  <li className="flex items-center gap-4">
-                    <Image src="/c4c_icon.png" alt="Baylor University" width={42} height={42} />
-                   <div><strong>Computing For Compassion (C4C)</strong> – Vice-President</div>
-                  </li>
-                  <ul className="list-disc pl-[60px] text-lg text-[#d0d0d0] space-y-1">
-                    <li>Started an after school computer technology class for middle and high schoolers</li>
-                    <li>Planned and hosted annual an hackathon for 27 teams</li>
-                    <li>Hosted several professors and local professionals to expand student networks and modern technoolgy</li>
-                  </ul>
-                  <li className="flex items-center gap-4">
-                    <Image src="/bu_logo.png" alt="Baylor University" width={42} height={42} />
-                    <div><strong>Baylor University</strong> – Master Tutor</div>
-                  </li>
-                  <ul className="list-disc pl-[60px] text-lg text-[#d0d0d0] space-y-1">
-                    <li>Helped college level students in Calculus (1,2,3), Physics 1 & 2, Circuit Analysis, Intro. to Engineering (1,2), and Data Structures</li>
-                    <li>Ran a Calculus 1 class attended by up to 25 students per week for a semester</li>
-                    <li>Hosted several professors and local professionals to expand student networks and modern technoolgy</li>
-                  </ul>
-                  <li className="flex items-center gap-4">
-                    <Image src="/nsbe_icon.png" alt="Baylor University" width={42} height={42} />
-                    <div><strong>National Society of Black Engineers</strong> – Memeber & Mentor</div>
-                  </li>
-                  <ul className="list-disc pl-[60px] text-lg text-[#d0d0d0] space-y-1">
-                    <li>Attended local community service, professional talks, and social events</li>
-                    <li>Attended the NSBE 48,49, and 51 conferences all over the country</li>
-                  </ul>
-                  <li className="flex items-center gap-4">
-                    <Image src="/bu_logo.png" alt="Baylor University" width={42} height={42} />
-                    <div><strong>Baylor Buddies</strong> – Elementary School Volunteer</div>
-                  </li>
-                  <ul className="list-disc pl-[60px] text-lg text-[#d0d0d0] space-y-1">
-                    <li>Mentored and tutored 3 kids for 2 years at a local elemetary school</li>
-                  </ul>
-                </ul>
-
-            <h3 className="text-3xl font-semibold mb-8">Relevant Coursework</h3>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 text-m list-disc list-inside font-semibold">
-              <li>RF/Microwave Circuits</li>
-              <li>Embedded Systems</li>
-              <li>Electronics</li>
-              <li>Antenna & Wireless Propagation</li>
-              <li>Computational Intelligence</li>
-              <li>GPU Programming</li>
-              <li>Advanced Digital Logic</li>
-              <li>Microprocessor Systems</li>
-              <li>Digital Signal Processing</li>
-              <li>Computer Organization</li>
-              <li>Circuit Theory</li>
-              <li>Digital Verification & Validation</li>
-              <li>Control Systems</li>
-              <li>Applied Electromagnetic Fields</li>
-              <li>Data Structures & Algorithms</li>
-              <li>Engineering Statistics</li>
-      
-            </ul>
-          </div>
-        </div>
+            </div>
+                
+            </div>
+            
+            </div>
+            
+          
       </section>
 
-      <section id="projects" className="min-h-[80vh] p-6 sm:p-12 bg-[#143344] text-[#f0f0f0]">
-        <h3 className="text-3xl font-bold mb-6">Projects</h3>
+      <section id="projects" className="min-h-[80vh] p-6 sm:p-12 bg-[#ffffff] text-[#f0f0f0]">
+        <h3 className=" text-center text-4xl font-bold mb-6 text-[#000000]">Projects</h3>
         <ul className="space-y-12">
         <li className="flex gap-12 items-center">
               <Image src="/blp1.png" alt="Rocket Engine Project" width={315} height={315} className="rounded-md object-cover" />
               <div>
                 <Link href="/projects/engine1">
-                  <h4 className="text-2xl font-semibold text-[#4cd4cb] underline hover:text-[#00b3b3]">
+                  <h4 className="text-2xl font-semibold text-[#000000] underline hover:text-[#00b3b3]">
                     Rocket Engine Testing Software Platform
                   </h4>
                 </Link>
-                <p>Programmed C++ software and a Python GUI for real-time control, telemetry, and data acquisition of 
+                <p className="text-[#000000]">Programmed C++ software and a Python GUI for real-time control, telemetry, and data acquisition of 
                   a liquid-fueled rocket engine used by a team of 9 engineers to rapidly test the engine with 
                   dependable ground support tooling.</p>
               </div>
             </li>
-                  <li className="flex gap-12 items-center">
+              <li className="flex gap-12 items-center">
             <Image src="/blp2.png" alt="Electronics System Project" width={315} height={315} className="rounded-md object-cover" />
             <div>
               <Link href="/projects/engine2">
-                <h4 className="text-2xl font-semibold text-[#4cd4cb] underline hover:text-[#00b3b3]">
-                  Full-Stack Rocket Engine Electronics System
+                <h4 className="text-2xl font-semibold text-[#000000] underline hover:text-[#00b3b3]">
+                  Full-Stack Engine Electronics System
                 </h4>
               </Link>
-              <p>Designed and validated electronics for control, telemetry, data acquisition, and power for a liquid-fueled rocket engine hot-fire test maximizing
+              <p className="text-[#000000]">Designed and validated electronics for control, telemetry, data acquisition, and power for a liquid-fueled rocket engine hot-fire test maximizing
                 reliability and minimizing time between attempts</p>
             </div>
           </li>
@@ -274,11 +254,11 @@ export default function Home() {
               <Image src="/auto_boat.png" alt="Autonomous Boat Project" width={315} height={315} className="rounded-md object-cover" />
               <div>
                 <Link href="/projects/auto">
-                  <h4 className="text-2xl  font-semibold text-[#4cd4cb] underline hover:text-[#00b3b3]">
+                  <h4 className="text-2xl  font-semibold text-[#000000] underline hover:text-[#00b3b3]">
                     Autonomous Boat Navigation System
                   </h4>
                 </Link>
-                <p>Made an embedded control system using motor drivers, a camera, and real-time software for international
+                <p className="text-[#000000]">Made an embedded control system using motor drivers, a camera, and real-time software for international
                   competition, RoboBoat, to make an autonomous water navigation boat.</p>
               </div>
             </li>
@@ -286,24 +266,24 @@ export default function Home() {
            <Image src="/full_processor_pic.png" alt="FPGA Processor Project" width={315} height={315} className="rounded-md object-cover" />
             <div>
               <Link href="/projects/fpga">
-                <h4 className="text-2xl  font-semibold text-[#4cd4cb] underline hover:text-[#00b3b3]">
+                <h4 className="text-2xl  font-semibold  text-[#000000] underline hover:text-[#00b3b3]">
                   FPGA Based 64-Bit Processor & Assembler 
                 </h4>
               </Link>
-              <p>Programmed an assembler in Python, a 64-bit pipelined ARM processor, and DDR2 memory controller interface
+              <p className="text-[#000000]">Programmed an assembler in Python, a 64-bit pipelined ARM processor, and DDR2 memory controller interface
                 in SystemVerilog to execute 23 instructions to better understand Computer Architecture, Computer Systems, and RAM design</p>
             </div>
           </li>
         </ul>
       </section>
 
-      <section id="blog" className="min-h-[20vh] p-6 sm:p-12 bg-[#194159] text-[#ffffff]">
-        <h3 className="text-3xl font-bold mb-4">Blog</h3>
+      <section id="blog" className="min-h-[20vh] p-6 sm:p-12 bg-[#ffffff] text-[#000000]">
+        <h3 className="text-4xl font-bold mb-4">Blog</h3>
           <p className="max-w-2xl mx-auto text-center text-lg">
             "I write as I investigate. Writing is another form of discovery."
                  — Johannes Kepler 
         </p>
-        <Link href="https://substack.com/@thetechhorizon?utm_source=user-menu">   
+        <Link href="https://substack.com/@thetechhorizon">   
               <p className="underline hover:text-[#4cd4cb] text-center text-2xl font-semibold">  Click Here to Read!</p>
         </Link>
       </section>
